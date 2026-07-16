@@ -56,3 +56,22 @@ input[type="submit"] {
     padding: .375rem 1rem;
     margin-top: 10px;
 }
+table {
+    border-collapse: collapse;
+    margin: 1rem;
+}
+
+th, td {
+    border: 1px solid lightgrey;
+    padding: 0.5rem 1rem;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+a {
+    margin: 1rem;
+    display: inline-block;
+}
