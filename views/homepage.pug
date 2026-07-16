@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    h1= title
+    a(href='/update-cobj') Add to this table
+    table
+      thead
+        tr
+          th Name
+          th Bio
+          th Favorite Color
+      tbody
+        each item in data
+          tr
+            td= item.properties.names
+            td= item.properties.bio
+            td= item.properties.favorite_color
